@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".GameModeActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="top|center"
+            android:onClick="clickButtonLevel_1"
+            android:text="@string/level1">
+        </Button>
+        <Button
+            android:id="@+id/button2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="top|center"
+            android:text="@string/level2">
+        </Button>
+        <Button
+            android:id="@+id/button3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="top|center"
+            android:text="@string/level3">
+        </Button>
+        <Button
+            android:id="@+id/button4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="top|center"
+            android:text="@string/level4">
+        </Button>
+        <Button
+            android:id="@+id/button5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="top|center"
+            android:text="@string/level5">
+        </Button>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
